@@ -26,22 +26,22 @@
             </div>
         <p>OR</p>
         <!-- login form -->
-        <div class="login">
-            <div class="Email">
-                <input type="email" name="email" id="label-input" placeholder="USERNAME OR EMAIL">
-            </div>
-            <div class="Password">
-                <input type="password" name="password" id="label-input" placeholder="PASSWORD">
-                 
-   
-            </div>
+        <form class="login">
+            <div class="input-field">
+                <input type="email" required>
+                <label class="texting">USERNAME OR EMAIL</label>
+              </div>
+              <div class="input-field">
+                <input type="password" required>
+                <label class="texting">PASSWORD</label>
+              </div>
             <!-- forgot password -->
             <div class="forgot">
                 <label><a href="#">Forgot password?</a></label>
             </div>
             <!-- loginbtn -->
-            <input type="Submit" value="Log In">
-        </div>
+           <button>Log In</button>
+        </form>
         <!-- signup -->
         <div class="sign">
             <label class="signup"><a href="#">Sign up </a>if you don't have an account</label>
