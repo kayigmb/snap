@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    outline: none;
+    outline:none;
 }
 body{
    
@@ -31,7 +31,7 @@ body{
     text-align: center;
     border: 1px solid black;
     border-radius: 20px;
-    margin-top:50px;
+    margin-top:40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,8 +44,8 @@ body{
 h1{
     margin-top: 50px;
 }
-.trouble {
-    margin-top: 30px;
+.trouble{
+    margin-top: 20px;
 }
 .trouble label a{
     text-decoration: none;
@@ -70,7 +70,7 @@ p{
 .input-field {
     position: relative;
     border-bottom: 2px solid #ccc;
-    margin: 15px 0;
+    margin: 20px 0;
   }
   .input-field .texting {
     position: absolute;
@@ -109,7 +109,7 @@ button{
     font-size: 20px;
     font-weight: bold;
 }
-.LOG:valid button{
+.login:valid button{
     background-color: yellow;
     border:1px solid yellow;
     color:black
@@ -124,9 +124,28 @@ button{
     font-weight: bold;
     color:black;
 }
-@media (max-width:840px) {
+@media (max-width:867px) {
    #other{
     width: 80%;
    }
+   button{
+    width: 80%;
 
+   }
+   .google{
+    width: 80%;
+    margin:50px auto;
+   }
+   h1{
+    font-size:25px;
+    font-weight: bold;
+   }
+   
+   .trouble label a{
+    font-size: 12px;
+    
+   }
+   .login{
+    margin-top: 30px;
+   }
 }
